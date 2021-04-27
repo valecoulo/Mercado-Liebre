@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    font-family: 'Roboto', sans-serif;
+    background-color: #EAC926;;
+}
+
+p, li {
+    font-size: 12px;
+}
+
+
+
+.precios {
+    font-size: 18px;
+}
+
+.descuentos {
+    font-size: 16px;
+    color: #39b54a;
+}
+
+.descripciones {
+    font-size: 16px;
+}
+
+.logo {
+    padding: 35px 0px 15px 32px;
+}
+
+.barra-de-busqueda {
+    display: block;
+    padding: 0.5px 5px 0.5px 0.2px;
+    background-color: white;
+    border: solid 1.9px #666;
+    color: #666;
+    margin-left: 8%;
+    margin-right: 40%;
+    margin-bottom: 2px;
+}
+
+.nav {
+    display: flex;
+}
+
+.logo-cuotas-tarjeta-flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+.cuotas-tarjeta {
+    /* justify-content: center; */
+    order: 1;
+    padding-left: 2px;
+}
+
+.lupa {
+    display: inline-block;
+    margin-left: 8%;
+    background-color: white;
+    border: solid 1.9px #666;
+    padding-right: 0.2px;
+    margin-bottom: 16px;
+}
+
+
+.header-li {
+    text-decoration: none;
+    color: black;
+    display: inline;
+}
+
+ul {
+    list-style: none;
+    display: inline;
+}
+
+.li-a-nav {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    display: inline-block;
+}
+
+.logo-cuenta {
+    display: flex;
+}
+
+.li-cuenta {
+    padding-right: 2px;
+}
+
+.logo-ingreso {
+    display: flex;
+}
+
+.li-ingreso {
+    padding-right: 0.5 0 0.5 2px;
+}
+
+.logo-compras {
+    display: flex;
+}
+
+.li-compras{
+    padding-right: 2px;
+}
+
+.home-banner {
+    margin-top: 7px;
+}
+
+.logo-tamanio {
+    font-size:12px;
+}
+
+.menu-hamburguesa {
+    font-size: 21px;
+    padding: 8.5px 11px 8.5px 10px;
+    background-color: #134D7C;
+    color: white;
+    margin-left: 45%;
+    margin-top: 30px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    display: inline-block;
+    
+}
+
+.logo-footer {
+    color: blue;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    margin-left: 45%;
+    margin-right: 45%;
+    font-size: 2em;
+}
+
+.subtittle-footer {
+    color: #596473;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.footer-des {
+    font-size: 13px;
+    display: flex;
+    text-align: center;
+    margin-left: 52px; 
+    margin-right: 52px;
+}
+
+.copyright {
+    font-size: 17px;
+    margin-top: 37px;
+    color: #666;
+    margin-left: 20px;
+    margin-bottom: 17px;
+}
+
+/* --- MAIN --- */
+
+main {
+    width: 90%;
+    margin: auto;
+    backface-visibility: visible;
+    background-color: gray;
+}
+
+article {
+    margin-bottom: 10px;
+}
+
+.truck-icon {
+    display: block;
+    margin-left: 8px;
+    margin-bottom: 15px;
+    color: #39b54a;
+}
+
+.main-subtitle {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #4E586A;
+}
+
+
+
+
+
+
