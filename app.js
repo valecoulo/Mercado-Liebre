@@ -12,6 +12,13 @@ app.get('/', (req, res) => {
 })
 
 
+app.get('/registro', (req, res) => {
+    res.sendFile(path.resolve(__dirname,'./views/register.html'))
+ })
+
+ app.get('/ingresar', (req, res) => {
+     res.sendFile(path.resolve(__dirname,'./views/login.html'))
+ })
 
 
 
@@ -20,4 +27,6 @@ app.get('/', (req, res) => {
 
 
 
-app.listen(3001, () => console.log('Servicio en marcha'));
+
+
+app.listen(3002, () => console.log('Servidor en marcha'));
