@@ -105,14 +105,6 @@ ul {
     display: inline-block;
 }
 
-.logo-cuenta {
-    display: flex;
-}
-
-.li-cuenta {
-    padding-right: 2px;
-}
-
 .logo-ingreso {
     display: flex;
 }
@@ -135,6 +127,7 @@ ul {
 
 .logo-tamanio {
     font-size:12px;
+    padding-left: 0px;
 }
 
 .menu-hamburguesa {
@@ -172,8 +165,9 @@ ul {
     font-size: 13px;
     display: flex;
     text-align: center;
-    margin-left: 52px; 
-    margin-right: 52px;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .copyright {
@@ -341,6 +335,28 @@ ul {
             padding-top: 2.7%;
             margin-right: 3%;
         }
+
+        .nav nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+            padding-top: 5%;
+            padding-bottom: 2%;
+        }
+        
+        .nav nav ul li {
+            display: inline;
+        }
+
+        .li-a-nav {
+            padding-left: 9px;
+        }
+
+        ul {
+            padding-left: 0px;
+            padding-right: 2%;
+        }
         
         .main-subtitle {
             margin-left: 39px;
@@ -357,6 +373,26 @@ ul {
             text-decoration: solid 1.5px #ebebeb;
         }
 
+         .article-box {
+            display: inline-block;
+            width: 40%;
+            margin-left: 6%;
+        }        
+
+        .section-produc {
+            display: inline-block;
+        }
+
+    }
+
+    /* Desktop */
+
+    @media (min-width: 992px) {
+        .article-box {
+            width: 22%;
+            margin-left: 2%;
+            margin-bottom: 4%;
+        }
     }
 
 
