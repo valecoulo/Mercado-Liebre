@@ -585,8 +585,10 @@ ul {
 
 .main-log {
     background-color: #ebebeb;
-    padding-bottom: 200px;
-    padding-top: 170px;
+    display: flex;
+    height: 555px;
+    justify-content: center;
+    align-items: center;
 }
 
 .body-log {
@@ -603,11 +605,6 @@ ul {
     padding-bottom: 30px;
     padding-top: 30px;
     justify-content: center;
-}
-
-.all-boxes {
-    margin-left: 132px;
-    /* margin-top: 200px; */
 }
 
 .box-1-log {
@@ -639,7 +636,10 @@ ul {
     border-style: none;
     border-radius: 7px;
     color: white;
+    text-decoration: none;
 }
+
+
 
 
 
