@@ -30,4 +30,4 @@ app.get('/registro', (req, res) => {
 
 
 
-app.listen(3002, () => console.log('Servidor en marcha'));
+app.listen(3001, () => console.log('Servidor en marcha'));
