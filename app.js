@@ -1,4 +1,5 @@
 const express = require('express');
+const process = require('process');
 const path = require('path');
 
 const app = express();
@@ -30,4 +31,4 @@ app.get('/registro', (req, res) => {
 
 
 
-app.listen(3001, () => console.log('Servidor en marcha'));
+app.listen(process.env.PORT || 3001, () => console.log('Servidor en marcha'));
