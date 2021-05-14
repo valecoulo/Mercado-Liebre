@@ -4,13 +4,19 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valecoulo/Mercado-Liebre.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valecoulo/Mercado-Liebre/issues"
+  },
+  "homepage": "https://github.com/valecoulo/Mercado-Liebre#readme",
   "dependencies": {
-    "debug": "^4.3.1",
     "express": "^4.17.1"
   }
 }
